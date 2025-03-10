@@ -1,0 +1,53 @@
+Table Name,Column Name,Data Type,Defination
+Comments,Sl No,N/a,Serial Number of Rows
+,Actions,N/a,Process and Changed Columns/Tables
+,Details,N/a,Details Actions explained
+Auction_Data,DBNames,Char,Names as per original data downloaded
+,Players,Char,Names as per WPL Site
+,Country,Char,Players origin country and national team
+,TNAME,Char,Short WPL Team Name
+,Team Name,Char,WPL Registered Team Name/Franchise 
+,Base Price,Int,Players List price for the audtion
+,Sold For,Int,Auctioned price of players against base price
+Match_Info,Match_ID,Int,Unique match identifier key/number
+,Team1,Char,Team listed as per WPL data
+,Team2,Char,Team listed as per WPL data
+,season,Date/Int,Year in which season help
+,date,Date,Date of the match corresponding to Match_ID
+,match_number,Char,Serial Number of match in ascending way of WPL matches
+,Stadium,Char,Stadium or venuw in which match is played
+,city,Char,City in which stadium or venue is located
+,toss_winner,Char,Team that won toss
+,toss_decision,Char,Team captain decision on Toss result
+,player_of_match,Char,Player of the match for best performance
+,umpire,Char,Field Umpire
+,umpire,Char,Field Umpire
+,reserve_umpire,Char,Reservce Umpire
+,tv_umpire,Char,TV Umpire for DRS reviews
+,match_referee,Char,Match Referee
+,winner,Char,Match winning Team
+,winner_runs,Int,Match win by total runs
+,winner_wickets,Int,Match win by total wickets
+Deliveres,match_id,Int,match identifier key/number
+,innings,Int,Inning number 1-Bats First 2-Chasing Team
+,ball,Int,Over and Bowl Number
+,batting_team,Char,Batting Team
+,bowling_team,Char,Bowling Team
+,striker,Char,Player at crease for bating
+,non_striker,Char,Batsman at Non-stricker end
+,bowler,Char,Bowler
+,runs_off_bat,Int,Runs gained by player - Legal runs for player/stricker
+,extras,Int,Sum Extras runs awarded for team
+,wides,Int,Wides in an Extras runs awarded for batting team
+,noballs,Int,Noball in an Extras runs awarded for batting team
+,byes,Int,Byes in an Extras runs awarded for batting team
+,legbyes,Int,Legbyes in an Extras runs awarded for batting team
+,penalty,Int,Penalties in an Extras runs awarded for batting team
+,wicket_type,Char,"Wicket type ex Catch, LBW, Run-out"
+,player_dismissed,Char,Wicket of the player
+,other_wicket_type,Char,If non-stricket is out and type
+,other_player_dismissed,Char,If non-stricket is out and name
+Data_Dictionery,Table Name,N/a,Table Name
+,Column Name,N/a,Column Name of the tables
+,Data Type,N/a,Type of data or data category
+,Defination,N/a,Defination of Columns
